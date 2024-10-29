@@ -1,0 +1,99 @@
+
+.booking-form-container {
+    position: absolute;
+    top: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.booking-form {
+    background-color: #fff;
+    padding: 20px;
+    width: 40%; 
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tab-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px; /* Adjusted padding */
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px; /* Adjusted margin */
+}
+
+.tab-navigation a {
+    text-decoration: none;
+    color: #800080;
+    font-size: 12px; /* Adjusted font size */
+    padding: 0 10px; /* Reduced padding */
+}
+
+.form-type {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 15px; /* Adjusted margin */
+}
+
+.form-type label {
+    margin-right: 10px; /* Reduced margin */
+    font-size: 12px; /* Adjusted font size */
+    color: #333;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px; /* Adjusted margin */
+    align-items: center; /* Center align input fields */
+}
+
+.form-group {
+    width: 48%; /* Keep two fields per row */
+    display: flex;
+    flex-direction: column; /* Ensure label and input stack vertically */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px; /* Adjusted font size */
+    color: #333;
+}
+
+.form-group input {
+    width: 80%;
+    padding: 10px; /* Standard padding for input */
+    font-size: 12px; /* Adjusted font size */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px; /* Adjusted margin */
+}
+
+.search-flights-btn {
+    background-color: #800080;
+    color: white;
+    padding: 10px 20px; /* Reduced padding */
+    border: none;
+    font-size: 14px; /* Adjusted font size */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer;
+}
+
+.promo-code-btn {
+    background-color: transparent;
+    border: 1px solid #800080; /* Border around the button */
+    color: #800080; /* Text color */
+    padding: 5px 10px; /* Button padding */
+    border-radius: 5px; /* Rounded button */
+    cursor: pointer;
+}

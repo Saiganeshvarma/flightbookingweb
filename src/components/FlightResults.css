@@ -1,0 +1,79 @@
+.flight-results {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.flight-results h2 {
+    font-size: 1.8rem;
+    color: #800080;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.flight-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.flight-results li {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.flight-results li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.flight-results li div {
+    flex: 1;
+    font-size: 1rem;
+}
+
+.flight-results li strong {
+    color: #333;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.flight-results button {
+    background-color: #800080;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.flight-results button:hover {
+    background-color: #5a005a;
+}
+
+.back-button {
+    background-color: #800080;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.back-button:hover {
+    background-color: #5a005a;
+}
